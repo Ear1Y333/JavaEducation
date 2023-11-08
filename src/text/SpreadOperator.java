@@ -1,4 +1,4 @@
-package skycapitals.text;
+package text;
 
 import static java.lang.System.*;
 public class SpreadOperator {
