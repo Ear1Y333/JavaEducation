@@ -11,8 +11,11 @@ public class Runner {
         int [][] matrix_n = matrix1.multiplication_of_a_number(2);
         Matrix matrix2 = new Matrix(matrix_n);
        // matrix2.getMatrix();
-
-        matrix1.sumOfMatrices(matrix2.getMatrix());
+        int [][] matrix3 =  {{1,4,5},
+                            {3,1,2},
+                            {12,2,6},
+                            {7,1,4}};
+        SumOfMatrices.sumOfMatrices(matrix1.getMatrix(), matrix2.getMatrix());
 
 
     }

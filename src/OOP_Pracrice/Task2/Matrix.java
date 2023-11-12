@@ -1,20 +1,16 @@
 package OOP_Pracrice.Task2;
 
 public class Matrix {
-    private int [][] matrix;
+    private int[][] matrix;
 
     public Matrix(int[][] matrix) {
         this.matrix = matrix;
     }
-    public void sumOfMatrices(int [][]matrix2){
-        for (int j=0; j<matrix.length; j++) {
-            for (int i=0; i<matrix.length; i++) {
-                System.out.print(matrix[j][i]+matrix2[j][i] + "  ");
-            }
-            System.out.print("\n");
-        }
 
-    }
+
+
+
+
     public int [][] multiplication_of_a_number(int n){
         for (int j=0; j<matrix.length; j++) {
             for (int i=0; i<matrix.length; i++) {
@@ -35,7 +31,5 @@ public class Matrix {
             }
             System.out.print("\n");
         }
-
-
     }
 }
