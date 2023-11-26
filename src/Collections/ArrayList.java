@@ -1,5 +1,7 @@
 package Collections;
 
+import java.util.Collections;
+
 public class ArrayList {
     public static void main(String[] args) {
         java.util.ArrayList<String> People = new java.util.ArrayList<>();
